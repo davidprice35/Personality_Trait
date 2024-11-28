@@ -9,7 +9,7 @@ import io
 # Load the pre-trained model
 @st.cache_resource
 def load_trained_model():
-    return load_model(r"C:\Users\Zarrar\Desktop\personality_traits\personality_model.h5")
+    return load_model("personality_model.h5")
 
 # Preprocess image for prediction
 def load_and_preprocess_image(image, target_size=(224, 224)):
