@@ -27,7 +27,7 @@ def predict_personality(model, image):
 
 # Main Streamlit app
 def main():
-    st.title("Personality Trait Inference from Image")
+    st.title("Personality Trait Inference from Images")
     
     # Load the model
     model = load_trained_model()
